@@ -616,12 +616,62 @@
 </div>
 <input type="hidden" name="" value="">
 </form>
+    <link href="https://static.deriv.app/css/oneall-deriv.css" type="text/css" rel="stylesheet" />
+    <style>
+        .providers_row {
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+        .provider a.button {
+            height: 38px;
+        }
+        .account-text {
+            margin-top: 17px;
+        }
+        p.error-oneall {
+            margin-top: 0;
+        }
+        .social_login_providers {
+            margin: 1.6rem auto;
+            width: 100%;
+        }
+    </style>
+
 <div class="separator">
 <p class="center-text social-text">
 Or log in with
 </p>
 </div>
-<div id="oa_social_login_container" data-processed="true" style="min-height: 170px;"><iframe id="oa_social_login_frame_17941" frameborder="0" scrolling="no" allowtransparency="true" data-processed="true" title="Login with Social Networks" name="OneAll Social Login" src="https://deriv.api.oneall.com/socialize/login/frame/?oakk=17941&amp;oakv=49a8ba77a60679f7abc8c830f494d950f879a48de0b1ec8341ea71e4159733958ddad58c41e4e001bad22ee991a0a50dbbe1bc0e7e72ee32fcb1c45974df500b8bcfd5cc65fb4fe72a74b444ef1d58c92a481a43ea240e8beba5948db64e27e4249624cc5ff758c31bf60bbb56db7d06b04f49873b8facb08253dbfc88725a181b6ec8d645888a7e10766b8505a25cb738df65930cbeea408cfcc1be23dcf3462053745417dc358381a5d728c77ca3a42022c1767f236f7c34c7d7becec0dbd06a77115f005b330b347ee50ce4d3a9b8970e3cc66c5eb65770ef516c204440f43ef0d3c3df3c71cdeecf1643a7c1a0a4b94fc8163fead2297c56e4c39083bf1db1d8d9116a081b87e4460c162ff38a85171cbed5405cdfe43014f5f235dd9d0bb9e6b4cd68337a146620fe7a23afac502f09f384de2de426e4401421787ea02e3bfc98be8efea615a9a4606e012f6a1a151744f37d8a9ae12014a26d2846a831bcb7979228260a0e42065043fcb9e98b3ea71426d80118b74863ce3e995e5e6181ed56b8a7eef8503e330b026e7613ea2e6e43ef129ccfe0a196f7efdb5a3d9148ed490e2df8242154c7bd5600585d7c04721955cf11cb255ea2e89f43cd99537fc4200bfacd6617760dd7ad3908868ab6225eda8143d2630fda8e5a49d16bc73398ffb9ad22b482dd2177f781314b1669ae2b47a87581e6d27a6f4730a6cfa4da84f03e440e7aa09ba5a2d5e61c3d27897a656621c8b48eb75c60c8152f679257411e1bc6b3295050582c06e8bfb3136547d88e92c2068306df8ea0d4454bbf42f7d8381bfc3590c5b454605e2aa31aafd72d8c865d359a6626678c468af3b0c22af0a757a25874c778886af333bb7de783f229de3426&amp;lang=en" style="border: 0px none; width: 406px; height: 170px; background-color: transparent;"></iframe></div>
+    <div class="providers_row social_login_providers">
+    
+        
+            <div class="provider" id="provider_google">
+                <a class="button" id="button_google" href="#" rel="nofollow" title="Login with google" role="button" aria-label="Login with google" aria-haspopup="true">
+                    <div class="name" id="name_google">Google</div>
+                </a>
+            </div>
+        
+    
+        
+            <div class="provider" id="provider_facebook">
+                <a class="button" id="button_facebook" href="#" rel="nofollow" title="Login with facebook" role="button" aria-label="Login with facebook" aria-haspopup="true">
+                    <div class="name" id="name_facebook">Facebook</div>
+                </a>
+            </div>
+        
+    
+        
+            <div class="provider" id="provider_apple">
+                <a class="button" id="button_apple" href="#" rel="nofollow" title="Login with apple" role="button" aria-label="Login with apple" aria-haspopup="true">
+                    <div class="name" id="name_apple">Apple</div>
+                </a>
+            </div>
+        
+    
+    </div>
 <p class="account-text">
 Don’t have an account yet? <a class="account-link" href="#">Create a new account</a>
 </p>
